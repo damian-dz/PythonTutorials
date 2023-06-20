@@ -13,8 +13,8 @@ m1, m2, l1, l2, g, t = symbols('m1, m2, l1, l2, g, t')
 th, la = dynamicsymbols('theta, lambda')
 
 # Defining the positions of the centers of mass based on the angle and the extension:
-x1 = l1 * cos(th) / 2
-y1 = l1 * sin(th) / 2
+x1 = l1 * cos(th)
+y1 = l1 * sin(th)
 x2 = la * cos(th)
 y2 = la * sin(th)
 
